@@ -1,0 +1,7 @@
+.*
+*~
+/node_modules/
+/test/node-example/
+/npm-debug.log
+!.travis.yml
+!.git*

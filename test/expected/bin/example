@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var argv = require('optimist')
+  .usage('The best Node.js module ever..\nUsage: $0')
+  .demand('v')
+    .alias('v', 'value')
+    .describe('v', 'Value to return')
+  .argv
+
+require('../').run(argv.value);

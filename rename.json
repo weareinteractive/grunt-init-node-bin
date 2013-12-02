@@ -1,0 +1,5 @@
+{
+  "bin/name": "bin/{%= name %}",
+  "src/name.coffee": "src/{%= name %}.coffee",
+  "test/specs/name.test.coffee": "test/specs/{%= name %}.test.coffee"
+}
