@@ -67,7 +67,7 @@ exports.template = (grunt, init, done) ->
       "grunt-contrib-coffee": "~0.7.0"
       "grunt-mocha-cov": "0.0.7"
       "coffee-script": "~1.6.3"
-      "grunt-bumper": "~1.0.0"
+      "grunt-bumper": "~1.0.1"
     }
 
     # Files to copy (and process).
